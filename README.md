@@ -18,4 +18,10 @@ chmod u+x dlhls.sh
 ```
 This should initiate the download, giving out more than enough printouts for troubleshooting.
 
+To play the stream, you can install npm's http-server and activate it at the current path:
+```bash
+npm install -g http-server
+http-server -p 3002
+```
+
 Enjoy!
